@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    
+    
+    <header>
+        
+<h1>Welcome to <span class="ton">Friends Forever</span></h1>
+<h3>Gopalpur,Tangail </h3>
+    </header>
+
+    <main>
+        <section id="login">
+           
+            <form>
+                <h2>Login</h2>
+                <input type="text" id="username" name="username" required placeholder="Touhid"><br><br>
+                
+                <input type="password" id="password" name="password" required placeholder="password"><br><br>
+                <input class="red" type="submit" value="Login">
+            </form>
+        
+            <marquee behavior="alternate" direction="">Friends forever</marquee><br>
+            <p>
+                If you hurt my best friend, I can make your death look like an accident.
+
+Nothing makes the earth so spacious as to have friends at a distance.
+
+Life is an awful, ugly place to not have a best friend.
+
+That was what a best friend did: hold up a mirror and show you your heart.
+
+To the world you may be just one person, but to one person you may be the world.
+
+The language of friendship is not words, but rather meanings. It is an intelligence above language.
+            </p>
+           
+        </section>
+
+        <section id="friends" class="hidden">
+         
+            <h2>Friends List</h2>
+            
+            <div id="friendList">
+            </div>
+        </section>
+        <section class="polti">
+            <div class="tel-1">
+            <img src="tl.png" alt="">
+            </div>
+            <div class="tel-2">
+               <img src="desktop-wallpaper-friends-forever-logo.jpg" alt="">
+            </div>
+            <div class="tel-3">
+                <img src="friends-logo-cover-958x575.png" alt="">
+
+            </div>
+        </section>
+        <br><br>
+        <div class="feedback-container">
+            <h2>feedback</h2>
+            <textarea id="feedback" rows="4" cols="50" placeholder="Enter your feedback"></textarea><br><br>
+            <button onclick="submitFeedback()">Submit</button>
+        </div>
+        <div class="feedback-history">
+            <h2>Feedback History</h2>
+            <ul id="feedbackList"></ul>
+        </div>
+        <mark>Developer Touhid</mark>
+    </main>
+
+    <script src="script.js"></script>
+   
+</body>
+</html>
+
+
+
+
+

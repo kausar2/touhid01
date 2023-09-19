@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+
+
+main {
+    margin-top: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.friend {
+    margin: 10px;
+    display: inline-block;
+}
+.friend img{
+    width:150px;
+    height:160px;
+    border:2px solid green;
+}
+form{
+    min-height:30vh;
+    margin:100px auto;
+    align-items: center;
+    justify-content: center;
+    box-shadow:0 10px 20px rgba(0,0,0.1);
+    width:350px;
+    padding:20px;
+    background-image:linear-gradient(to right,white,#ee7600);
+     border-radius:10px;
+}
+.red{
+   
+    padding:5px 15px;
+    height:40px;
+    background-color:#6495ED;
+    color:white;
+    font-weight: 700;
+    width:80px;
+    border-radius: 5px;
+    font-size:1em;
+}
+input{
+    width:200px;
+    height:30px;
+    text-align:center;
+    border-radius:2px;
+}
+body{
+    background-image: linear-gradient(to left,#33C8FF,#D033FF);
+}
+marquee{
+    text-transform: capitalize;
+    font-size:2em;
+}
+.ton{
+    color:yellow;
+}
+.polti .tel-1{
+    display:inline-block;
+    align-items: center;
+    justify-content: space-evenly;
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    background-color:blueviolet;
+   
+}
+.polti .tel-2 {
+    display:inline-block;
+    align-items: center;
+    justify-content:space-evenly;
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    background-color:black;
+   margin-left:60px;
+   color:white;
+  
+}
+.polti .tel-3{
+    display:inline-block;
+    align-items: center;
+    justify-content: space-evenly;
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    background-color:white;
+    margin-left:60px;
+}
+.polti .tel-1 img{
+    display:inline-block;
+    align-items: center;
+    justify-content: space-evenly;
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    background-color:blueviolet;
+   
+}
+.polti .tel-2 img{
+    display:inline-block;
+    align-items: center;
+    justify-content:space-evenly;
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    background-color:black;
+   margin-left:0px;
+   color:white;
+  
+}
+.polti .tel-3 img{
+    display:inline-block;
+    align-items: center;
+    justify-content: space-evenly;
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    background-color:white;
+    margin-left:0px;
+}
+.polti{
+    margin-right:20px;
+}
+
+
+.feedback-container {
+    margin-bottom: 20px;
+}
+
+.feedback-history {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+button{
+    padding:5px 15px;
+    height:40px;
+    background-color:#6495ED;
+    color:white;
+    font-weight: 700;
+    width:80px;
+    border-radius: 5px;
+    font-size:1em;
+}
+textarea{
+    text-align:center;
+    border-radius:5px;
+}
+
